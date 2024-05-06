@@ -40,7 +40,7 @@ mac:
 linux: 
   target: 'AppImage'
   maintainer: 'SIRU-DEV'
-  vendor: 'SIRU-dEV'
+  vendor: 'SIRU-DEV'
   synopsis: 'Reboot Launcher'
   description: 'Custom launcher By RB-DEV.'
   category: 'Game'
