@@ -56,8 +56,8 @@ offline = "Offline"
 players = "Players"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
-supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+sourceGithubLink = "https://github.com/SIRU-DEV/REBOOT-Launcher"
+supportLink = "https://github.com/SIRU-DEV/REBOOT-Launcherissues"
 
 [ejs.welcome]
 welcomeHeader = "ยินดีต้อนรับเข้าสู่ REBOOT-PROJECT"
