@@ -1,14 +1,9 @@
 {
-  "name": "helioslauncher",
+  "name": "rebootlauncher",
   "version": "0.0.2",
   "productName": "REBOOT Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
-  "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
-  },
+  "author": "SIRU-DEV",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -47,6 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/SIRU-DEV/REBOOT-Launcher.git"
   }
 }
