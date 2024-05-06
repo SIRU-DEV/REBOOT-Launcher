@@ -17,6 +17,8 @@ const { MicrosoftAuth, MicrosoftErrorCode } = require('helios-core/microsoft')
 const { AZURE_CLIENT_ID }    = require('./ipcconstants')
 const Lang = require('./langloader')
 
+require('v8-compile-cache');
+
 const log = LoggerUtil.getLogger('AuthManager')
 
 // Error messages

@@ -1,5 +1,7 @@
 const net = require('net')
 
+require('v8-compile-cache');
+
 /**
  * Retrieves the status of a minecraft server.
  * 

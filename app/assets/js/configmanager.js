@@ -11,6 +11,8 @@ const dataPath = path.join(sysRoot, '.helioslauncher')
 
 const launcherDir = require('@electron/remote').app.getPath('userData')
 
+require('v8-compile-cache');
+
 /**
  * Retrieve the absolute path of the launcher directory.
  * 
@@ -540,7 +542,11 @@ function defaultJavaConfig17(ram) {
             '-XX:G1NewSizePercent=20',
             '-XX:G1ReservePercent=20',
             '-XX:MaxGCPauseMillis=50',
-            '-XX:G1HeapRegionSize=32M'
+            '-XX:G1HeapRegionSize=32M',
+            '-XX:HeapDumpOnOutOfMemoryError',
+            '-XX:HeapDumpPath="/tmp"',
+            '-XX:+UseGCOverheadLimit'
+
         ],
     }
 }

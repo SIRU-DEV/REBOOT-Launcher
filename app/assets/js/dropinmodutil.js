@@ -3,6 +3,8 @@ const path      = require('path')
 const { ipcRenderer, shell } = require('electron')
 const { SHELL_OPCODE } = require('./ipcconstants')
 
+require('v8-compile-cache');
+
 // Group #1: File Name (without .disabled, if any)
 // Group #2: File Extension (jar, zip, or litemod)
 // Group #3: If it is disabled (if string 'disabled' is present)

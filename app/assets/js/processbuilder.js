@@ -12,6 +12,8 @@ const ConfigManager            = require('./configmanager')
 
 const logger = LoggerUtil.getLogger('ProcessBuilder')
 
+require('v8-compile-cache');
+
 
 /**
  * Only forge and fabric are top level mod loaders.

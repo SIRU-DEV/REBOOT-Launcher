@@ -3,6 +3,8 @@ const path = require('path')
 const toml = require('toml')
 const merge = require('lodash.merge')
 
+require('v8-compile-cache');
+
 let lang
 
 exports.loadLanguage = function(id){

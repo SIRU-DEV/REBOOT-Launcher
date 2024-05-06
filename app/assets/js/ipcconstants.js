@@ -4,6 +4,8 @@
 exports.AZURE_CLIENT_ID = '1ce6e35a-126f-48fd-97fb-54d143ac6d45'
 // SEE NOTE ABOVE.
 
+require('v8-compile-cache');
+
 
 // Opcodes
 exports.MSFT_OPCODE = {

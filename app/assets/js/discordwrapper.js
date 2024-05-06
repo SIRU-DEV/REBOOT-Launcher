@@ -7,6 +7,8 @@ const { Client } = require('discord-rpc-patch')
 
 const Lang = require('./langloader')
 
+require('v8-compile-cache');
+
 let client
 let activity
 

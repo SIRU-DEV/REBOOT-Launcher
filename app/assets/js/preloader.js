@@ -14,6 +14,8 @@ const logger = LoggerUtil.getLogger('Preloader')
 
 logger.info('Loading..')
 
+require('v8-compile-cache');
+
 // Load ConfigManager
 ConfigManager.load()
 

@@ -27,6 +27,8 @@ const {
     extractJdk
 }                             = require('helios-core/java')
 
+require('v8-compile-cache');
+
 // Internal Requirements
 const DiscordWrapper          = require('./assets/js/discordwrapper')
 const ProcessBuilder          = require('./assets/js/processbuilder')

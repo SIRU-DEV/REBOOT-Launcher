@@ -4,6 +4,8 @@
 
 /* Overlay Wrapper Functions */
 
+require('v8-compile-cache');
+
 /**
  * Check to see if the overlay is visible.
  * 

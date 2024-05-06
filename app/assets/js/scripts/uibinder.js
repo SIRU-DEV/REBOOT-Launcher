@@ -10,6 +10,8 @@ const AuthManager   = require('./assets/js/authmanager')
 const ConfigManager = require('./assets/js/configmanager')
 const { DistroAPI } = require('./assets/js/distromanager')
 
+require('v8-compile-cache');
+
 let rscShouldLoad = false
 let fatalStartupError = false
 
